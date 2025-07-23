@@ -145,17 +145,18 @@ Install the required libraries
 ```bash
 pip install -r requirements.txt
 ```
-(Optional) Generate your own dataset
+### (Optional) Generate your own dataset
 Run the script to create a custom dataset:
 
 ```bash
 python custom_dataset.py
 ```
-Train and evaluate the model
+### Train and evaluate the model
+
 Open the Jupyter Notebook to train the model:
 
 ```bash
-jupyter notebook model_training.ipynb
+jupyter notebook Salary_Prediction_notes.ipynb
 ```
 Launch the web app (optional)
 Run the Streamlit app for an interactive interface:
@@ -163,7 +164,7 @@ Run the Streamlit app for an interactive interface:
 ```bash
 streamlit run app.py
 ```
-## 📝 Or Simply:
+### 📝 Or Simply:
 
 Use the pre-generated dataset and pretrained model provided in this repo and directly launch the app:
 
