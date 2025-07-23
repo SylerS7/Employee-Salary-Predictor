@@ -137,8 +137,8 @@ Feature Importance chart (for Random Forest)
 Clone the repo or download the files
 
 ```bash
-git clone <repo-url>
-cd <project-directory>
+git clone https://github.com/SylerS7/Employee-Salary-Predictor.git
+cd Employee-Salary-Predictor
 ```
 Install the required libraries
 
