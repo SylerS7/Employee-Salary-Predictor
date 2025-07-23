@@ -84,7 +84,7 @@ Increase salary based on experience and performance
 
 Model gender wage gap (~5% lower for females)
 
-Output saved as synthetic_employee_data.csv
+Output saved as realistic_employee_dataset.csv
 
 ## 🧹 Data Preprocessing
 
@@ -192,5 +192,5 @@ The system is modular and can be extended further
 🏢 Extend to predict bonuses and career growth paths
 
 ## 📩 Contact
-Developed by Aryan K.
+Developed by K Aryan.
 For suggestions or collaboration, feel free to reach out!
