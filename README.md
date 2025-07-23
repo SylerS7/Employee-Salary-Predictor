@@ -47,7 +47,7 @@ The system can help HR departments estimate fair salary ranges, identify underpa
 
 - `pandas` — Data manipulation  
 - `numpy` — Numerical operations  
-- `matplotlib`, `seaborn` — Visualization  
+- `matplotlib` — Visualization  
 - `sklearn` — Machine learning models and metrics  
 - `faker` — Synthetic data generation  
 - `random` — Control distributions  
