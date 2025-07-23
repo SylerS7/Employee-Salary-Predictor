@@ -115,7 +115,6 @@ Mean Absolute Error (MAE)
 
 Root Mean Squared Error (RMSE)
 
-python
 ```bash
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 ```
@@ -134,7 +133,7 @@ Actual vs Predicted Salary plots
 
 Feature Importance chart (for Random Forest)
 
-▶️ How to Run
+## ▶️ How to Run
 Clone the repo or download the files
 
 ```bash
@@ -192,6 +191,6 @@ The system is modular and can be extended further
 
 🏢 Extend to predict bonuses and career growth paths
 
-📩 Contact
+## 📩 Contact
 Developed by Aryan K.
 For suggestions or collaboration, feel free to reach out!
