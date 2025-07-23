@@ -56,6 +56,7 @@ The system can help HR departments estimate fair salary ranges, identify underpa
 Install all with:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn faker joblib
+'''
 📂 Dataset Description
 The dataset is generated using Faker and includes over 10,000 samples. Each record has:
 
