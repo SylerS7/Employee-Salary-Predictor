@@ -57,13 +57,8 @@ Install all with:
 ```bash
 pip install pandas numpy matplotlib streamlit scikit-learn faker joblib
 ```
+## 📂 Dataset Description
 
-## Run the Predictor
-```bash
-streamlit run app.py
-```
-
-📂 Dataset Description
 The dataset is generated using Faker and includes over 10,000 samples. Each record has:
 
 Feature	Description
@@ -77,7 +72,8 @@ Experience	Work experience in years
 Performance	Rating from 1 to 5
 Salary	Computed target (based on logic + noise)
 
-🧾 Data Generation
+## 🧾 Data Generation
+
 Used faker (Indian locale) for realistic names
 
 Custom logic added to:
@@ -90,14 +86,16 @@ Model gender wage gap (~5% lower for females)
 
 Output saved as synthetic_employee_data.csv
 
-🧹 Data Preprocessing
+## 🧹 Data Preprocessing
+
 Label encoding for categorical features (Education, Gender, Job Title, Industry)
 
 Normalization and scaling (if needed)
 
 Correlation analysis and EDA (heatmaps, histograms, boxplots)
 
-🧪 Model Building
+## 🧪 Model Building
+
 Several regression models were evaluated:
 
 Model	Description
@@ -107,7 +105,8 @@ Gradient Boosting	Boosted trees for better accuracy
 
 Best model: Random Forest (based on R² and RMSE)
 
-📈 Evaluation
+## 📈 Evaluation
+
 Used the following metrics:
 
 R² Score
@@ -117,10 +116,12 @@ Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
 
 python
-Copy
-Edit
+```bash
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
-🧪 Results
+```
+
+## 🧪 Results
+
 R² Score: ~0.87
 
 MAE: ₹6,500
@@ -136,15 +137,42 @@ Feature Importance chart (for Random Forest)
 ▶️ How to Run
 Clone the repo or download the files
 
+```bash
+git clone <repo-url>
+cd <project-directory>
+```
 Install the required libraries
 
-Run data_generation.py to create the dataset
+```bash
+pip install -r requirements.txt
+```
+(Optional) Generate your own dataset
+Run the script to create a custom dataset:
 
-Run model_training.ipynb to train and evaluate
+```bash
+python custom_dataset.py
+```
+Train and evaluate the model
+Open the Jupyter Notebook to train the model:
 
-Optionally, run app.py for a web interface (Streamlit)
+```bash
+jupyter notebook model_training.ipynb
+```
+Launch the web app (optional)
+Run the Streamlit app for an interactive interface:
 
-✅ Conclusion
+```bash
+streamlit run app.py
+```
+## 📝 Or Simply:
+
+Use the pre-generated dataset and pretrained model provided in this repo and directly launch the app:
+
+```bash
+streamlit run app.py
+```
+
+## ✅ Conclusion
 The model can predict employee salaries with good accuracy
 
 Custom salary logic makes the data generation realistic
